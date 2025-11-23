@@ -8,7 +8,7 @@
 
 
 Outputs in same directory in file `results.log`
-```json
+```python
 ===== FLOOD TEST RESULTS =====
 URL: http://localhost:8000/
 Workers: 5
