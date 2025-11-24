@@ -5,6 +5,11 @@
 pip install -r requirements.txt
 ```
 
+or
+```
+pip install httpx rich
+```
+
 **Run command:**
 ``` 
 python main.py http://localhost:8000/ --ip 5 --requests 100 --sleep 0.00
