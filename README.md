@@ -12,7 +12,7 @@ pip install httpx rich
 
 **Run command:**
 ``` 
-python main.py http://localhost:8000/ --ip 5 --requests 100 --sleep 0.00
+python attack.py http://localhost:8000/ --ip 5 --requests 5000 --sleep 0.00
 ```
 
 
@@ -21,57 +21,57 @@ Outputs in same directory in file `results.log`
 ===== FLOOD TEST RESULTS =====
 URL: http://localhost:8000/
 Workers: 5
-Requests per worker: 500
-Total Requests: 2500
+Requests per worker: 5000
+Total Requests: 25000
 Delay per request: 0.0 sec
 
---- IP 75.47.75.234 ---
+--- IP 251.166.198.199 ---
 200: 200
-403: 291
-429: 9
+403: 4796
+429: 4
 Other: 0
 ERR: 0
-Latency avg: 9.40 ms
+Latency avg: 6.92 ms
 Latency min: 3 ms
-Latency max: 1569 ms
+Latency max: 1619 ms
 
---- IP 42.254.135.22 ---
+--- IP 171.180.27.214 ---
 200: 200
-403: 291
-429: 9
+403: 4796
+429: 4
 Other: 0
 ERR: 0
-Latency avg: 8.70 ms
+Latency avg: 6.89 ms
 Latency min: 2 ms
-Latency max: 1247 ms
+Latency max: 1309 ms
 
---- IP 93.243.60.67 ---
+--- IP 77.72.241.132 ---
 200: 200
-403: 291
-429: 9
+403: 4796
+429: 4
 Other: 0
 ERR: 0
-Latency avg: 8.12 ms
-Latency min: 3 ms
-Latency max: 912 ms
+Latency avg: 6.84 ms
+Latency min: 2 ms
+Latency max: 965 ms
 
---- IP 109.117.182.190 ---
+--- IP 41.219.206.186 ---
 200: 200
-403: 291
-429: 9
+403: 4796
+429: 4
 Other: 0
 ERR: 0
-Latency avg: 7.52 ms
-Latency min: 3 ms
-Latency max: 616 ms
+Latency avg: 6.74 ms
+Latency min: 2 ms
+Latency max: 658 ms
 
---- IP 148.188.131.177 ---
+--- IP 93.65.109.171 ---
 200: 200
-403: 291
-429: 9
+403: 4796
+429: 4
 Other: 0
 ERR: 0
-Latency avg: 6.83 ms
+Latency avg: 6.68 ms
 Latency min: 3 ms
-Latency max: 282 ms
+Latency max: 341 ms
 ```
