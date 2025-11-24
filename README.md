@@ -1,10 +1,14 @@
 # Install
 
 **Install httpx**
-```pip install -r requirements.txt```
+```python
+pip install -r requirements.txt
+```
 
 **Run command:**
-```python main.py http://localhost:8000/ --ip 5 --requests 100 --sleep 0.00```
+```python 
+python main.py http://localhost:8000/ --ip 5 --requests 100 --sleep 0.00
+```
 
 
 Outputs in same directory in file `results.log`
