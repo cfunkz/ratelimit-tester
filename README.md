@@ -1,12 +1,12 @@
 # Install
 
 **Install httpx**
-```python
+```
 pip install -r requirements.txt
 ```
 
 **Run command:**
-```python 
+``` 
 python main.py http://localhost:8000/ --ip 5 --requests 100 --sleep 0.00
 ```
 
