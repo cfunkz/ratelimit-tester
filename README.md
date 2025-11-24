@@ -12,7 +12,7 @@ pip install httpx rich
 
 **Run command:**
 ``` 
-python attack.py http://localhost:8000/ --ip 5 --requests 5000 --sleep 0.00
+python main.py http://localhost:8000/ --ip 5 --requests 5000 --sleep 0.00
 ```
 
 
